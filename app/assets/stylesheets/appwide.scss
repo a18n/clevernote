@@ -1,0 +1,14 @@
+@import "twitter/bootstrap";
+
+/*http://www.colourlovers.com/palette/2629325/Call_me_Baby*/
+$my_beige  : rgb(255, 245, 184);
+$my_purple : rgb(191, 40, 143);
+$my_blue   : rgb(86, 180, 214);
+$my_orange : rgb(214, 124, 86);
+$my_green  : rgb(139, 201, 115);
+
+body{
+	color: $my_blue;
+	background-color: white;
+	background-image: url('fabric_plaid.png');
+}
