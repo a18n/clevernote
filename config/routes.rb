@@ -1,6 +1,8 @@
 Testapp::Application.routes.draw do
   get "sample/index"
 
+  root :to => "sample#index"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
