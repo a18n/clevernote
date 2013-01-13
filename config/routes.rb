@@ -1,5 +1,8 @@
 Testapp::Application.routes.draw do
+  get "auth/callback"
+
   get "sample/index"
+  match "/auth/callback" => 'auth#callback'
 
   root :to => "sample#index"
   
